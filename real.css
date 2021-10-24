@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+html{
+    scroll-behavior: smooth;
+}
+.header {
+  margin: 2% 0;
+  padding: 30px;
+  text-align: left;
+  background: #FCB07E;
+  color:#03254E;
+  font-size: 20px;
+  text-color:white;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+  
+}
+html, body{
+    height: initial;
+    background-color: #e2eafc;
+}
+* {
+    padding: 3 1;
+    margin: 0 2;
+    /* border: 1px solid lightblue; */
+    font-family: 'Overpass', sans-serif;
+}
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 2 var(--spacing-3);
+    max-width: 700px;
+    margin: 0 auto;
+    display: auto;
+    flex-direction: column;
+    text-overflow: ellipsis;
+     text-align:justify;
+  
+}
+.image {
+    width: 250px;
+    border-radius: var(--border-radius);
+    flex-shrink: 1;
+    border: 5px inset #8E0D1F;
+    float:right;
+    overflow:visible;
+    position: static;
+  transition: background 200ms;
+  height: 250px;
+  
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-1) 1;
+  vertical-align: middle;
+ 
+}
+.navigation-items{
+    color:white;
+    background-position: center;
+    align-items:center;
+}
+#logo{
+    color: #545677;
+    text-align: left;
+  animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 3sec;
+
+}
+:root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --border-radius: 12px;
+    --font-color: #323232;
+}
+#p1{
+  text-align:left;
+  font-size:19px;
+  float:right;
+  color: #545677;
+  float: left;
+  text-overflow: clip;
+  text-indent: 10%;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  flex-grow: 1;
+}
+
+#intro{
+  color:#608DE2;
+  text-align:auto;
+  border: 6px solid rgba(28,110,164,0.56);
+  flex:auto;
+  padding:2px, 1px;
+}
+#farm{
+  color:#545677;
+  text-shadow:2px;
+  text-align:left;
+  
+}
+
+#toe{
+  color:green;
+  
+}
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  padding: 1;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+  
+  
+}
+  .project-image{
+    max-height: 200px;
+    min-height:10px;
+  }
+  
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ h2{
+  color:#545677;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: 5sec;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+view raw
+  
+}
+.skill-gallery img {
+    width: 100%;
+    animation: visibleOn .5s ease-in-out both;
+}
+.cd-bg-video-wrapper {
+  /* background cover video */
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url(../assets/bg-img.jpg) no-repeat center center;
+  background-size: cover;
+}
+.cd-bg-video-wrapper video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+  height: auto;
+  width: auto;
+}
+
+.video.cd-intro-content svg {
+  position: absolute;
+  z-index: 2;
+  /* center the svg inside its parent */
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.8;
+}
+.video.cd-intro-content svg.svg-mask {
+  /* this is the svg mask used on desktop version */
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .video.cd-intro-content svg.svg-mask-mobile {
+    display: none;
+  }
+  .video.cd-intro-content svg.svg-mask {
+    display: block;
+  }
+  /* This is the nav button  */
+}
+ .dropbtn {
+  background-color: #545677;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #03254E;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #7B9EA8}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #03254E;
+
+}
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FCB07E;
+   color: #03254E;
+   text-align: center;
+}
+ 
+#demo{
+  color:#FCDDBC;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #EF959D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #FCDDBC;
+  padding: 20px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
