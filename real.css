@@ -1,270 +1,156 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
 html{
-    scroll-behavior: smooth;
-  
+  scroll-behavior: smooth;
+  background-color:#FCF2D8;
+  font-family:Arial;
+  font-size:20px;
 }
+
 .header {
-  margin: 2% 0;
-  padding: 3px;
-  text-align: center;
-  color:#CC3433;
-  font-size: 20px;
-   font-family: "Lucida Console", "Courier New", monospace;
-  background-color: #0E3386;
+  background-color:#A5ACAF;
+  border:5px solid #005A9c;
+  text-align: left;
+  padding:20px;
+  border-radius:20px;
+} 
+
+#head{
+  color:#fcf2d8;
+  font-family: Arial;
+}
+.kan{
+  color:#005A9c;
+  font-family: Arial;
+  border:3px solid;
+  display:inline-block;
+  border-radius: 35px;
+}
+@keyframes  {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.card{
+  box-shadow: 0 4px 8px 0 #EF3E42;
+  max-width:300px;
+  margin:auto;
+  text-align:center;
+  font-family: 'Caveat';
+  border-radius: 25px;
 }
   
+.title{
+  color:#A5ACAF;
 }
-html, body{
-    height: initial;
-    background-color: #E2EAFc;
-  color:#E2EAfc;
-  padding: 3px;
+.b1{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding:5px;
+  color:#12151F;
+  background-color:#B4D0E7;
+  text-align:center;
+  cursor:pointer;
+  width:100%;
+  font-size:13px;
+  transition:0.4s;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color:black;
+}
+.b1:hover, a:hover{
+  opacity: 0.7;
+}
+.topnav{
+  overflow: hidden;
+  background-color:#fcf2d8;
+}
+.topnav a {
+  float:left;
+  color:blue;
+  text-align:center;
+  padding: 13px 29px;
+  text-decoration: none;
+  font-size:15px;
+   
+}
+.topnav a:hover{
+  background-color:#005a9c;
+  color:#a5acaf;
+}
+.topnav a.active{
+  background-color:#005a9c;
+  color:white;
+}
+#about{
+  color:#005a9c;
+  text-align:justify;
+  font-family: Helvetica;
+  
   
 }
-*{
-    padding: 15px;
-    margin: 5;
-    font-family: 'Overpass', sans-serif;
+.footer{
+  background-color:#005a9c;
+  padding: 20px 35px;
+  color:#fcf2d8;
+  display: overflow;
   
 }
+$color-background: #eaecfa;
+$color-loader: #ce4233;
 
 body {
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
-    padding: 2 var(--spacing-3);
-    max-width: 700px;
-    margin: 0 auto;
-    display: auto;
-    flex-direction: column;
-    text-overflow: ellipsis;
-     text-align:justify;
-  
-}
-.image {
-  /* This is the image*/
-    width: 250px;
-    border-radius: var(--border-radius);
-    flex-shrink: 1;
-    border: 5px inset #8E0D1F;
-    float:right;
-    overflow:visible;
-    position: auto;
-  transition: background 200ms;
-  height: 250px;
-  
-    
-}
-nav{
-    display: flex;
-    align-items: center;
-    padding: var(--spacing-1) 1;
-  vertical-align: middle;
- 
-}
-.navigation-items{
-    color:white;
-    background-position: center;
-    align-items:center;
-}
-#logo{
-  /* This is About me intro*/
-    color: #CC3433;
-    text-align: left;
-  
-
-}
-:root {
-    --spacing-1: 8px;
-    --spacing-2: 1px;
-    --spacing-3: 1px;
-    --spacing-4: 2px;
-    --border-radius: 12px;
-    --font-color: #323232;
-}
-#p1{
-  /* This affects intro paragraph and second paragraph*/
-  text-align:left;
-  font-size:19px;
-  float:right;
-  color: #CC3433;
-  float: left;
-  text-overflow: auto;
-  text-indent: 10%;
-  display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  flex-grow: 1;
-  padding: 20px;
-}
-#farm{
-  color:#545677;
-  text-shadow:2px;
-  text-align:left;
-  
+  background: $color-background;
 }
 
-.navigation-items {
-  display: flex;
-  list-style-type: none;
-  padding: 1;
-  align-items: center;
-  margin: 0;
-  margin-left: auto;   
-}
-  .project-image{
-    max-height: 200px;
-    min-height:10px;
-  }
-  
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
- h2{
-  color:#545677;
-    animation-duration: 4s;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-.cd-bg-video-wrapper video {
-  display: block;
+.loader {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
   position: absolute;
-  left: 50%;
   top: 50%;
-  bottom: auto;
-  right: auto;
-  transform: translateX(-50%) translateY(-50%);
-  min-height: 100%;
-  min-width: 100%;
-  max-width: none;
-  height: auto;
-  width: auto;
-}
-
-.video.cd-intro-content svg {
-  position: absolute;
-  z-index: 2;
-  /* center the svg inside its parent */
   left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  transform: translateX(-50%) translateY(-50%);
-  opacity: 0.8;
-}
-.video.cd-intro-content svg.svg-mask {
-  /* this is the svg mask used on desktop version */
-  display: none;
-}
-@media only screen and (min-width: 768px) {
-  .video.cd-intro-content svg.svg-mask-mobile {
-    display: none;
-  }
-  .video.cd-intro-content svg.svg-mask {
+  transform: translate(-50%,-50%);
+  font-family: helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: $color-loader;
+  letter-spacing: 0.2em;
+  display:hidden;
+  
+  &::before, &::after {
+    content: "";
     display: block;
+    width: 15px;
+    height: 15px;
+    background: $color-loader;
+    position: absolute;
+    animation: load .7s infinite alternate ease-in-out;
   }
- 
-
-  /* This is the nav button  */
+  
+  &::before {
+    top: 0;
+  }
+  
+  &::after {
+    bottom: 0;
+  }
 }
- .dropbtn {
-  background-color: #545677;
+
+@keyframes load {
+  0% { left: 0; height: 30px; width: 15px }
+  50% { height: 8px; width: 40px }
+  100% { left: 235px; height: 30px; width: 15px}
+}
+.fa-facebook {
+  background: #3B5998;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-   text-color:#CC3433;
 }
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #03254E;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #7B9EA8}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #03254E;
-
-}
-.footer {
-   position: relative;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #FCB07E;
-   color: #03254E;
-   text-align: center;
-}
- 
-#demo{
-  color:#FCDDBC;
-}
-
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #041F33;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #CC3433;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #0E3386;
-  padding: 15px;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+.fa:hover {
+    opacity: 0.7;
 }
 .fa {
   padding: 20px;
@@ -274,4 +160,16 @@ input[type=submit]:hover {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.project{
+  color:#005a9c;
+  text-align:left;
+  
+}
+#contacts{
+  color:#005a9c;
 }
