@@ -137,4 +137,9 @@ nav ul li a{
 }
 .info, .active, a:hover{
   transform: translateY(-5px);}
+.content p{
+  color:#fff;
+  text-align: left;
+  overflow: hidden;
+}
 
