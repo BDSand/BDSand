@@ -187,4 +187,30 @@ button{
   justify-content: center;
   align-items: center;
 }
+ .text-box span{
+  display: inline-block;
+  font-weight: bolder;
+  animation: mover 6s linear infinite;
+   color:rgb(255, 253, 208);
+    font-size:50px;
+}
+@keyframes mover{
+  0%{
+    text-shadow:rgb(255, 253, 208);
+    
+  }
+  50%{
+    text-shadow:rgb(255, 253, 208);
+      transform:translateY(30px);
+  }
+  100%{
+    text-shadow:rgb(255, 253, 208);
+  }
+}
+span:nth-child(1){
+  animation-delay: 0.5s;
+}
+span:nth-child(2){
+  animation-delay:1s;
+}
 
