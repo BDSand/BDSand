@@ -213,4 +213,29 @@ span:nth-child(1){
 span:nth-child(2){
   animation-delay:1s;
 }
+@media only screen and (max-width:700px){
+  nav ul{
+    width: 100%;
+    position:absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2
+  }
+  nav ul li{
+    display: block;
+    margin-top: 10px;
+  }
+   .menu-icon{
+     display: block;
+    }
+  .text-block{
+    padding:20px;
+    width:100%;
+  }
+  .info, .active {
+    margin-top:20px;
+    position: relative;
+  
+  }
+}
 
