@@ -190,7 +190,7 @@ button{
  .text-box span{
   display: inline-block;
   font-weight: bolder;
-  
+  animation: mover 8s linear infinite;
    color:rgb(255, 253, 208);
     font-size:50px;
 }
