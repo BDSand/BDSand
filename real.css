@@ -187,10 +187,10 @@ button{
   justify-content: center;
   align-items: center;
 }
- .text-box sn{
+ .text-box span{
   display: inline-block;
   font-weight: bolder;
-  animation: mover 6s linear infinite;
+  
    color:rgb(255, 253, 208);
     font-size:50px;
 }
