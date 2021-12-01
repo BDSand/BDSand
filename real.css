@@ -7,7 +7,7 @@
 .header{
   width:100%;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(https://images.unsplash.com/photo-1633614907351-22b3992b906c?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNTY1MjA1NA&ixlib=rb-1.2.1&q=85);
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(https://assets.codepen.io/4989881/background.JPG);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -106,6 +106,7 @@ nav ul li a{
 }
 .info{
   position: relative;
+  margin-right:2px;
 }
 .info::before{
   content:'';
@@ -137,6 +138,7 @@ nav ul li a{
 }
 .info, .active, a:hover{
   transform: translateY(-5px);}
+
 .content p{
   color:#fff;
   text-align: left;
@@ -187,10 +189,10 @@ button{
   justify-content: center;
   align-items: center;
 }
- .text-box span{
+  .text-box span{
   display: inline-block;
   font-weight: bolder;
-  animation: mover 8s linear infinite;
+  animation: mover 6s linear infinite;
    color:rgb(255, 253, 208);
     font-size:50px;
 }
@@ -213,7 +215,6 @@ span:nth-child(1){
 span:nth-child(2){
   animation-delay:1s;
 }
-
 @media only screen and (max-width:700px){
   nav ul{
     width: 100%;
