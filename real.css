@@ -143,6 +143,8 @@ nav ul li a{
   color:#fff;
   text-align: left;
   overflow: hidden;
+   padding: 10px;
+  line-height: 75px;
 }
 form{
   width:90%;
