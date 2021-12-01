@@ -149,7 +149,7 @@ nav ul li a{
 .about-title{
   color:#fff;
   text-align:center;
-  padding-top:20px;
+  padding-top:200px;
   position: relative;
   overflow: hidden;
 }
@@ -249,4 +249,3 @@ span:nth-child(2){
   
   }
 }
-
