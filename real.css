@@ -146,6 +146,13 @@ nav ul li a{
    padding: 10px;
   line-height: 75px;
 }
+.about-title{
+  color:#fff;
+  text-align:center;
+  padding-top:20px;
+  position: relative;
+  overflow: hidden;
+}
 form{
   width:90%;
   max-width: 600px;
