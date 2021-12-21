@@ -11,7 +11,7 @@ canvas {
 }
 
 main {
-  color: black;
+  color: white;
   position: relative;
   grid-template-columns: repeat(12, 1fr);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@ main {
 }
 /*-----This Covers Header-----------*/
 .header{
-  color:white;
+  color:black;
   margin: 40px;
   position: relative;
   background-size: cover;
@@ -52,7 +52,7 @@ nav ul li a {
 }
 /*-----Paragrapgh-------*/
 .intro{
-  color:#fff;
+  color:black;
   text-align: left;
   overflow: hidden;
   margin: 50px;
