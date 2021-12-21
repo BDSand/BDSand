@@ -1,73 +1,82 @@
-<DOCTYPE!>
-  <html>
-    <head>
-      <meta name="viewport" content="width=device-width, intial-scale=1.0">
-      <title> Breven</title>
-      <link rel="stylesheet" href="real.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
       <link href="resources\css\style.css" type="text/css" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/b93a309bb0.js" crossorigin="anonymous"></script>
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my website</title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <main>
+      <div class="fade-in">
+      <div class="header">
+        <nav>
+    <h2>Welcome</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About </a></li>
+    </ul>
+    </nav>
+      </div>
+    <div class="intro">
+      <h2>My name is Breven Sandoval</h2>
+      <p>I am a Front-End and Java Developer from San Antonio<br>
+        I specialize in Java, React, HTML, CSS, Swift and Three.js. <br>
+        With over 5 years of coding experience working on a mulititude of different projects.<br>
+        My vision is to create unique and exciting interfaces for Web 3 and beyond.<br>
+        My pefrence is a minimal inudstrial style but proficient in multiple designs.
+
+
+      </p>
+    </div>
+    <div class="skills">
+      <h2>Here's what I'm good at</h2>
+      <p>With over 5 years experience in JavaScript, HTML, CSS, and React <br>
+      I am always looking for the next and best. <br>  </p>
+
+    </div>
+    <div calss="projects">
+      <h2>Here's what I did </h2>
+      <h3><a href="#">RPG</a></h3>
+      <p>Here I created a simple RPG with branched paths and a movement and leveling system.</p>
+      <h3><a href="#">Store</a></h3>
+      <p>This is a storefront created to have full functionality, including customer reviews<br>
+      coupons, and a store cart</p>
+      <h3><a href="#">Weather</a></h3>
+      <p>This is a weather app that finds the weather in your location <br> and finds an 
+      area with similar weather.</p>
+
+    </div>
     
-      <body>
-        <div class="header">
-          <nav>
-            
-            
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            
-          
-          </nav>
-        
-        
-        
-          <div class="social-media">
-           
-            <a href="https://github.com/BDSand/BDSand.github.io"> GitHub</a>
-             <a href="www.linkedin.com/in/brevensandoval">Linked In</a>
-             <a href="#">Twitter</a>
-          </div>
-          <div class="line">
-            
-          </div>
+      <h2>Here's where you can reach me at</h2>
+      <div class="contact">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your Name">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last Name">
+          <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
 
-          <div class="row">
-            <div>
-              <div class="content">
-                <span>
-                  <img src="https://images.unsplash.com/photo-1612296727166-b44f0be45463?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNTY1MzY5Mg&ixlib=rb-1.2.1&q=85">
-                  Welcome </span>
-                  <div class="text-box">
-                    <h1>My name is <span>Breven</span>
- <span> Sandoval</span></h1>
-                <p> Here you can find information and recent projects I'm working on!</p>
-                  </div>
-              </div>
-          </div>
-           
-          <div>
-              
-                <div class="info">
-                  <span class="active"><a href="">HTML & CSS</a></span>
-                  <span class="active"><a href="">React</a></span>
-                  <span class="active"><a href="">JavaScript</a> </span>
-              </div>
-       
-              <div class="arrow">
-                
-              </div>
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            
-            </div>
+    <input type="submit" value="Submit">
+        </form>
 
-         </div>
-         
-       
-        
-      </body>
+
+    </div>
     
-  </html>
+</div>
+  
+    </main>
+    <script type="module" src="/main.js"></script>
+  
+  </body>
+</html>
