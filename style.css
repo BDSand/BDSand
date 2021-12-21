@@ -11,7 +11,7 @@ canvas {
 }
 
 main {
-  color: white;
+  color: black;
   position: relative;
   grid-template-columns: repeat(12, 1fr);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
